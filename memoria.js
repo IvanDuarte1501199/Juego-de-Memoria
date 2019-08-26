@@ -53,6 +53,7 @@ function PresionarFicha(oculta, ficha) {
         }else{
             if(ComprobarVictoria()==true){
                 alert("GANASTE");
+                window.location.reload();
             }
         }
         pos--;
@@ -63,7 +64,6 @@ function ComprobarVictoria() {
     let ganaste = true;
     for (let i = 0; i < 12; i++) {
         if (document.getElementById('oculta'+i.toString()).style.display == 'grid') {
-            console.log('entro');
             ganaste = false;
         }
     }

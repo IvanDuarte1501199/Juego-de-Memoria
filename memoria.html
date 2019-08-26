@@ -6,38 +6,43 @@
     </script>
     <link rel="stylesheet" href="memoria.css">
     <title>Juego de Memoria</title>
-    <script>
-        MezclarFichas();
-        UbicarFichas();
-    </script>
 </head>
 
 <body>
-    
-    <div id="btn_prueba" class="partes" >66666
-
-    </div>
-
-    
-    <h1>Juego de Memoria</h1>
+    <h1 style="font-size: 75px; height: 25px;  margin:2% 22.5%;">Juego de Memoria</h1>
     <div id="maindiv" class="total">
         <div id="divh1" class="general">
-            <div id="ficha0" class="partes" onclick="PresionarFicha()">1</div>
-            <div id="ficha1" class="partes" onclick="PresionarFicha()"></div>
-            <div id="ficha2" class="partes" onclick="PresionarFicha()"></div>
-            <div id="ficha3" class="partes" onclick="PresionarFicha()"></div>
+            <div id="ficha0" class="partes" style="display: none"></div>
+            <div id="oculta0" class="partes" onclick="PresionarFicha('oculta0' , 'ficha0')">?</div>
+            <div id="ficha1" class="partes" style="display: none"></div>
+            <div id="oculta1" class="partes" onclick="PresionarFicha('oculta1' , 'ficha1')">?</div>
+            <div id="ficha2" class="partes" style="display: none"></div>
+            <div id="oculta2" class="partes" onclick="PresionarFicha('oculta2' , 'ficha2')">?</div>
+            <div id="ficha3" class="partes" style="display: none"></div>
+            <div id="oculta3" class="partes" onclick="PresionarFicha('oculta3' , 'ficha3')">?</div>
         </div>
         <div id="divh2" class="general">
-            <div id="ficha4" class="partes" onclick="PresionarFicha()"></div>
-            <div id="ficha5" class="partes" onclick="PresionarFicha()"></div>
-            <div id="ficha6" class="partes" onclick="PresionarFicha()"></div>
-            <div id="ficha7" class="partes" onclick="PresionarFicha()"></div>
+            <div id="ficha4" class="partes" style="display: none"></div>
+            <div id="oculta4" class="partes" onclick="PresionarFicha('oculta4' , 'ficha4')">?</div>
+            <div id="ficha5" class="partes" style="display: none"></div>
+            <div id="oculta5" class="partes" onclick="PresionarFicha('oculta5' , 'ficha5')">?</div>
+            <div id="ficha6" class="partes" style="display: none"></div>
+            <div id="oculta6" class="partes" onclick="PresionarFicha('oculta6' , 'ficha6')">?</div>
+            <div id="ficha7" class="partes" style="display: none"></div>
+            <div id="oculta7" class="partes" onclick="PresionarFicha('oculta7' , 'ficha7')">?</div>
         </div>
         <div id="divh3" class="general">
-            <div id="ficha8" class="partes" onclick="PresionarFicha()"></div>
-            <div id="ficha9" class="partes" onclick="PresionarFicha()"></div>
-            <div id="ficha10" class="partes" onclick="PresionarFicha()"></div>
-            <div id="ficha11" class="partes" onclick="PresionarFicha()"></div>
+            <div id="ficha8" class="partes" style="display: none"></div>
+            <div id="oculta8" class="partes" onclick="PresionarFicha('oculta8' , 'ficha8')">?</div>
+            <div id="ficha9" class="partes" style="display: none"></div>
+            <div id="oculta9" class="partes" onclick="PresionarFicha('oculta9' , 'ficha9')">?</div>
+            <div id="ficha10" class="partes" style="display: none"></div>
+            <div id="oculta10" class="partes" onclick="PresionarFicha('oculta10' , 'ficha10')">?</div>
+            <div id="ficha11" class="partes" style="display: none"></div>
+            <div id="oculta11" class="partes" onclick="PresionarFicha('oculta11' , 'ficha11')">?</div>
+        </div>
+        <div>
+            <div id="intentos" style="font-size: 40px; margin: 1% 4%;color: firebrick"> Intentos = 10</div>
         </div>
     </div>
 
@@ -45,6 +50,7 @@
         MezclarFichas();
         UbicarFichas();
     </script>
+
 
 </body>
 

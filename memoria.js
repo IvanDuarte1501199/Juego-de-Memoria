@@ -1,4 +1,5 @@
 var array_posibles = ['1', '1', '2', '2', '3', '3', '4', '4', '5', '5', '6', '6'];
+var intentos=20;
 function MezclarFichas() {
     var i = array_posibles.length;
     var j;
@@ -17,5 +18,8 @@ function UbicarFichas() {
     }
 }
 function PresionarFicha() {
+
+}
+function DarVueltaFicha(){
 
 }

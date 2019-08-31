@@ -1,0 +1,16 @@
+.total{
+    margin: 7% 20%;
+}
+.general{
+    display: flex;
+}
+.partes{
+border-radius: 10px;
+margin: 5px;
+height: 100px;
+width: 16.6%;
+background-color: lightgray;
+border: 1px solid red;
+font-size: 90px;
+text-align: center;
+}

@@ -1,2 +1,2 @@
-# -lab4-2019-
-Primer Trabajo Práctico de Laboratorio 4 - TSP - Ivan Duarte Y Santiago Ferlatti
+# JUEGO DE MEMORIA
+Primer Trabajo Práctico de Laboratorio IV - UTN-FRP-TSP
